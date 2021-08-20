@@ -1,11 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-  </url>
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://lizwkariuki58.github.io/posts/basic-markdown-syntax/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/categories/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/tags/configuration/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/categories/documentation/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/tags/installation/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/posts/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/tags/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/posts/theme-documentation-basics/</loc><lastmod>2020-12-15T11:21:43&#43;03:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/tags/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/categories/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod></url><url>
+            <loc>https://lizwkariuki58.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod></url></urlset>
