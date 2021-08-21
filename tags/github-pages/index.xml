@@ -5,10 +5,10 @@
         <description>github-pages - Tag - Liz Kariuki</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</lastBuildDate><atom:link href="https://lizwkariuki58.github.io/tags/github-pages/" rel="self" type="application/rss+xml" /><item>
     <title>How to Host a Hugo Site for Free on Github Pages</title>
-    <link>https://lizwkariuki58.github.io/hugo-github-pages-custom-domain/</link>
+    <link>https://lizwkariuki58.github.io/hugo-github-pages/</link>
     <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
     <author>upagge.en</author>
-    <guid>https://lizwkariuki58.github.io/hugo-github-pages-custom-domain/</guid>
+    <guid>https://lizwkariuki58.github.io/hugo-github-pages/</guid>
     <description><![CDATA[<p>Find out how to create a Hugo site and host it on Github Pages for free.</p>]]></description>
 </item></channel>
 </rss>

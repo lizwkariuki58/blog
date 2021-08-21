@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>How to Host a Hugo Site for Free on Github Pages | </title><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lizwkariuki58.github.io/hugo-github-pages/featured-image.jpg"/>
+<meta name="twitter:title" content="How to Host a Hugo Site for Free on Github Pages"/>
+<meta name="twitter:description" content="Find out how to create a Hugo site and host it on Github Pages for free."/><meta name="Description" content="Find out how to create a Hugo site and host it on Github Pages for free."><meta property="og:title" content="How to Host a Hugo Site for Free on Github Pages" />
+<meta property="og:description" content="Find out how to create a Hugo site and host it on Github Pages for free." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lizwkariuki58.github.io/hugo-github-pages/" /><meta property="og:image" content="https://lizwkariuki58.github.io/hugo-github-pages/featured-image.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-21T11:33:21+03:00" />
+<meta property="article:modified_time" content="2021-08-21T11:33:21+03:00" />
+
+<meta name="application-name" content="Liz Kariuki">
+<meta name="apple-mobile-web-app-title" content="Liz Kariuki"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lizwkariuki58.github.io/hugo-github-pages/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/lib/prismjs/prism.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to Host a Hugo Site for Free on Github Pages",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/lizwkariuki58.github.io\/hugo-github-pages\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/lizwkariuki58.github.io\/hugo-github-pages\/featured-image.jpg",
+                            "width":  960 ,
+                            "height":  640 
+                        }],"genre": "posts","keywords": "hugo, github-pages","wordCount":  867 ,
+        "url": "https:\/\/lizwkariuki58.github.io\/hugo-github-pages\/","datePublished": "2021-08-21T11:33:21+03:00","dateModified": "2021-08-21T11:33:21+03:00",
+        "publisher": {
+            "@type": "Person",
+            "name": "", "image": [
+            {
+            "@type": "ImageObject",
+            "url": "\/assets\/images\/avatar.png"
+            }
+            ]},"author": {
+                "@type": "Person",
+                "name": ""
+            },"description": "Find out how to create a Hugo site and host it on Github Pages for free."
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/lizwkariuki58.github.io\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Web Development",
+            "item": "https://lizwkariuki58.github.io/categories/web-development/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "How to Host a Hugo Site for Free on Github Pages"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header>
+    <div class="desktop header" id="header-desktop">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Liz Kariuki" class="header-logo logo-svg"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>Liz Kariuki</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul class="menu-inner"><li>
+                            <a class="menu-item" href="/posts/"> Posts </a>
+                        </li><li>
+                            <a class="menu-item" href="/tags/"> Tags </a>
+                        </li><li>
+                            <a class="menu-item" href="/categories/"> Categories </a>
+                        </li><li>
+                            <a class="menu-item" href="/about/"> About Me </a>
+                        </li><li>
+                            <a class="menu-item" href="https://github.com/lizwkariuki58" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a>
+                        </li></ul>
+                </nav><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <span class="svg-icon icon-search"></span>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <span class="svg-icon icon-cancel"></span>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <span class="svg-icon icon-loading"></span>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <span class="svg-icon icon-moon"></span>
+                </a>
+            </div>
+        </div>
+    </div><div class="mobile header" id="header-mobile">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <a href="/" title="Liz Kariuki" class="header-logo"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>Liz Kariuki</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle-mobile">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                        <div class="search mobile" id="search-mobile">
+                            <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                                <span class="svg-icon icon-search"></span>
+                            </a>
+                            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                                <span class="svg-icon icon-cancel"></span>
+                            </a>
+                            <span class="search-button search-loading" id="search-loading-mobile">
+                                <span class="svg-icon icon-loading"></span>
+                            </span>
+                        </div>
+                        <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                            Cancel
+                        </a>
+                    </div><nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul><li>
+                            <a class="menu-item" href="/posts/" title="">Posts</a>
+                        </li><li>
+                            <a class="menu-item" href="/tags/" title="">Tags</a>
+                        </li><li>
+                            <a class="menu-item" href="/categories/" title="">Categories</a>
+                        </li><li>
+                            <a class="menu-item" href="/about/" title="">About Me</a>
+                        </li><li>
+                            <a class="menu-item" href="https://github.com/lizwkariuki58" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a>
+                        </li></ul>
+                </nav>
+                <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <span class="svg-icon icon-moon"></span>
+                </a></div>
+        </div>
+    </div><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div></header><main class="main">
+<div class="container content-article  theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contents</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div>
+    
+
+    
+    
+    <article>
+    
+
+        <header class="header-post">
+
+            
+
+            
+            <div class="post-title">
+
+                    <div class="post-all-meta">
+                        <nav class="breadcrumbs">
+    <ol>
+        <li><a href="/">Home </a></li><li><a href="/categories/web-development/">Web Development </a></li><li>How to Host a Hugo Site for Free on Github Pages</li>
+    </ol>
+</nav>
+                        <h1 class="single-title flipInX">How to Host a Hugo Site for Free on Github Pages</h1><div class="post-meta summary-post-meta"><span class="post-category meta-item">
+                                <a href="/categories/web-development/"><span class="svg-icon icon-folder"></span>Web Development</a>
+                            </span><span class="post-meta-date meta-item">
+                                <span class="svg-icon icon-clock"></span><time class="timeago" datetime="2021-08-21">2021-08-21</time>
+                            </span><span class="post-meta-words meta-item">
+                                <span class="svg-icon icon-pencil"></span>867 words
+                            </span>
+                            <span class="post-meta-reading meta-item">
+                                <span class="svg-icon icon-stopwatch"></span>5 minutes
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </header>
+
+        <div class="article-post toc-start">
+
+            <div class="content-block content-block-first content-block-position">
+
+                <div class="post single"><div class="image-theme-classic">
+                        <img src="https://lizwkariuki58.github.io/hugo-github-pages/featured-image.jpg" style="width: 100%">
+                    </div><div class="details toc" id="toc-static"  data-kept="">
+                        <div class="details-summary toc-title">
+                            <span>Contents</span>
+                        </div>
+                        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-introduction">1 Introduction</a></li>
+    <li><a href="#2-why-use-hugo">2 Why use Hugo</a></li>
+    <li><a href="#3-why-use-github-pages">3 Why Use Github Pages</a></li>
+    <li><a href="#4-set-up-hugo-site-and-push-to-github">4 Set Up Hugo Site and Push to Github</a></li>
+    <li><a href="#5-adding-a-theme-to-your-site">5 Adding a Theme to Your Site.</a></li>
+    <li><a href="#6-set-up-website">6 Set up Website</a></li>
+    <li><a href="#7-conclusion">7 Conclusion</a></li>
+  </ul>
+</nav></div>
+                    </div><p>Find out how to create a Hugo site and host it on Github Pages for free.</p>
+<h2 id="1-introduction" class="headerLink"><a href="#1-introduction" class="header-mark"></a>1 Introduction</h2><p>So you want to create your first personal website? You have probably heard of Content Management Systems(CMSs) like Wordpress or Website Builders like Wix. But unless you are building a very complex website,you don&rsquo;t need the complications, risks and costs that come with the above options. CMSs create heavy websites that are slow, prone to security risks and costly to host. Static site generators overcome this problem by generating static html files which are light, secure fast and cheap(even free) to host.</p>
+<h2 id="2-why-use-hugo" class="headerLink"><a href="#2-why-use-hugo" class="header-mark"></a>2 Why use Hugo</h2><p>There are lots of static generators you can use to generate your website. Examples include: <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer">Hugo</a>, <a href="" rel="">Gatsby</a>, <a href="" rel="">Jekyll</a>,<a href="" rel="">Next.js</a>,<a href="" rel="">Pelican</a> etc. I chose Hugo for the following reasons:</p>
+<ul>
+<li>It is well-documented with a large community of users and library of themes and templates.</li>
+<li>It is fully free and open source.</li>
+<li>Posts are written in Markdown which allows for powerful formatting and is transferrable.</li>
+<li>It has a very fast build time.</li>
+<li>It is SEO Friendly.</li>
+</ul>
+<h2 id="3-why-use-github-pages" class="headerLink"><a href="#3-why-use-github-pages" class="header-mark"></a>3 Why Use Github Pages</h2><p>Github pages is a hosting service offered by Github to let creators showcase their work for free. There are 2 types of Github pages websites: organizational pages and project pages. The default url is in the format username.github.io but you could also configure the site to show on your custom domain.</p>
+<p>There are two ways to get your site on Github pages. You could use Github to host only the static files required to build your site. These are typically found in the &lsquo;public&rsquo; folder in Hugo. This option gets the work done but the code used to generate the site itself is not tracked and stored via Git. The second option or what I call &lsquo;the right way&rsquo; lets you track the static pages, the hugo code and the theme in separate submodules. Let&rsquo;s get started.</p>
+<h2 id="4-set-up-hugo-site-and-push-to-github" class="headerLink"><a href="#4-set-up-hugo-site-and-push-to-github" class="header-mark"></a>4 Set Up Hugo Site and Push to Github</h2><p>To build a site with Hugo, you must first install Hugo on your local machine. Check <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">this</a> page on how to install hugo on your Operating System. Once Hugo is installed:</p>
+<ol>
+<li>Create a new site by running :</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo new site my_website
+<span class="nb">cd</span> my_website
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Create a Github repository for the site and initiate it without a README file.</li>
+<li>In your website root directory, initialize git, add remote repository, add the files, commit the changes and push to origin.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">git init
+git remote add origin *url*
+git add .
+git commit -m <span class="s2">&#34;Initial commit&#34;</span>
+git push -u origin master
+</code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>Create a second repository on Github to host the public html files. If this is an &lsquo;organization&rsquo; site on Github, name the repository &lsquo;&lsquo;&lsquo;username.github.io&rsquo;'&rsquo;.</li>
+<li>At the project root folder add this repository as a submodule in a folder called public.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">git submodule add -b master *repo url* public
+</code></pre></td></tr></table>
+</div>
+</div><ol start="6">
+<li>Run the command <code>hugo</code> to build the site.</li>
+<li>In the public folder, add and commit the changes.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> public
+git add .
+git commit -m <span class="s2">&#34;initial commit of public files&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="8">
+<li>Go back to the project root, add and commit all the changes and most important, push both repositories as shown below:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> ..
+git add .
+git commit -m <span class="s2">&#34;Commit both repositories&#34;</span>
+git push -u origin master --recurse-submodules<span class="o">=</span>on-demand
+</code></pre></td></tr></table>
+</div>
+</div><ol start="9">
+<li>Go to the settings page on the public Githup repository, and turn on the site. Your site is now live but it does not have any content or a theme.</li>
+</ol>
+<h2 id="5-adding-a-theme-to-your-site" class="headerLink"><a href="#5-adding-a-theme-to-your-site" class="header-mark"></a>5 Adding a Theme to Your Site.</h2><p>We shall be using a submodule to add a theme to your project for the following reasons:</p>
+<ul>
+<li>You shall be able to track changes you have made to the theme code separately.</li>
+<li>You can still easily update your theme with changes made by the theme&rsquo;s creator.</li>
+</ul>
+<p>To begin with you need to choose a theme. Hugo has a diverse selection of themes to fit your every need be it blogging, documentation, displaying a portfolio etc. You can use <a href="https://awesomeopensource.com/projects/hugo" target="_blank" rel="noopener noreffer">this resource</a> to pick a theme. After choosing a theme fork its repository to your Github profile so that you can make any changes you need. To add the forked repository as a submodule to your project, go to the website root folder and run:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">git submodule add *forked repo url* themes/theme-name
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="6-set-up-website" class="headerLink"><a href="#6-set-up-website" class="header-mark"></a>6 Set up Website</h2><ol>
+<li>Edit the config.toml file to set up the theme and base url.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">baseURL = &#39;https://username.github.io/&#39;
+title = &#39;Site Title&#39;
+theme = &#39;theme-name&#39;
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>To create your first post, run the following command:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo new first_post.md
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>Run the command &lsquo;hugo&rsquo; to build the site.</li>
+<li>Run the command &lsquo;hugo server&rsquo; to preview the site locally.</li>
+<li>Once you are satisfied by the site, add and commit the changes and push them to Github as follows.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> public
+git add .
+git commit -m <span class="s2">&#34;Commit first post&#34;</span>
+<span class="nb">cd</span> ..
+git add .
+git commit -m <span class="s2">&#34;Commit first post and theme&#34;</span>
+git push -u origin master --recurse-submodules<span class="o">=</span>on-demand
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="7-conclusion" class="headerLink"><a href="#7-conclusion" class="header-mark"></a>7 Conclusion</h2><p>Congratulations on building your first Hugo site and hosting it on Github Pages! To help you along this journey, here are some additional resources:</p>
+<ul>
+<li><a href="https://gohugo.io/getting-started/" target="_blank" rel="noopener noreffer">Getting Started with Hugo</a></li>
+<li><a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreffer">Github Pages Documentation</a></li>
+</ul></div><footer>
+                        <div class="post">
+
+
+<div class="post-share"><div class="share-link">
+        <a class="share-icon share-twitter" href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://lizwkariuki58.github.io/hugo-github-pages/" data-title="How to Host a Hugo Site for Free on Github Pages" data-hashtags="hugo,github-pages"><span class="svg-social-icon icon-twitter"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-facebook" href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lizwkariuki58.github.io/hugo-github-pages/" data-hashtag="hugo"><span class="svg-social-icon icon-facebook"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-linkedin" href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://lizwkariuki58.github.io/hugo-github-pages/"><span class="svg-social-icon icon-linkedin"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-whatsapp" href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://lizwkariuki58.github.io/hugo-github-pages/" data-title="How to Host a Hugo Site for Free on Github Pages" data-web><span class="svg-social-icon icon-whatsapp"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-hackernews" href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://lizwkariuki58.github.io/hugo-github-pages/" data-title="How to Host a Hugo Site for Free on Github Pages"><span class="svg-social-icon icon-hacker-news"></span></a>
+    </div></div>
+
+
+
+
+<div class="block-author">
+    <div class="author-avatar"><a href="https://lizkariuki.com/" target="_blank"><img alt="" src="/assets/images/avatar.png"></a></div>
+    <div class="author-info">
+        <div class="name"><a href="https://lizkariuki.com/" target="_blank"></a></div>
+        <div class="number-posts"></span></div>
+    </div>
+</div>
+
+
+<div class="post-tags"><a href="/tags/hugo/" class="tag">hugo</a><a href="/tags/github-pages/" class="tag">github-pages</a></div></div>
+                </footer></div>
+
+        <div id="toc-final"></div>
+        </div>
+
+    
+    </article>
+    </div>
+
+</main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Theme - <a href="https://ublogger.netlify.app/?utm_source=https://lizwkariuki58.github.io/&utm_medium=footer&utm_campaign=config&utm_term=2.0.1" target="_blank" title="uBlogger 2.0.1">uBlogger</a>
+                </div><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2021</span><span class="author">&nbsp;<a href="https://lizkariuki.com/" target="_blank">Liz</a></span></div>
+        </div>
+    </footer></div>
+
+        <aside id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="svg-icon icon-arrow-up"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="svg-icon icon-comments-fixed"></i>
+            </a>
+        </aside><script src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/prismjs/prism.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script></body>
+</html>
