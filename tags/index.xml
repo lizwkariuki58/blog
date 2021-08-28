@@ -1,21 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Liz Kariuki</title>
-        <link>https://lizwkariuki58.github.io/tags/</link>
+        <link>https://lizkariuki.com/tags/</link>
         <description>Tags - Tag - Liz Kariuki</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</lastBuildDate><atom:link href="https://lizwkariuki58.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</lastBuildDate><atom:link href="https://lizkariuki.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ynab</title>
+    <link>https://lizkariuki.com/tags/ynab/</link>
+    <pubDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</pubDate>
+    <author>upagge.en</author>
+    <guid>https://lizkariuki.com/tags/ynab/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>github-pages</title>
-    <link>https://lizwkariuki58.github.io/tags/github-pages/</link>
+    <link>https://lizkariuki.com/tags/github-pages/</link>
     <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
     <author>upagge.en</author>
-    <guid>https://lizwkariuki58.github.io/tags/github-pages/</guid>
+    <guid>https://lizkariuki.com/tags/github-pages/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>hugo</title>
-    <link>https://lizwkariuki58.github.io/tags/hugo/</link>
+    <link>https://lizkariuki.com/tags/hugo/</link>
     <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
     <author>upagge.en</author>
-    <guid>https://lizwkariuki58.github.io/tags/hugo/</guid>
+    <guid>https://lizkariuki.com/tags/hugo/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

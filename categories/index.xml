@@ -1,21 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - Liz Kariuki</title>
-        <link>https://lizwkariuki58.github.io/categories/</link>
+        <link>https://lizkariuki.com/categories/</link>
         <description>Categories - Category - Liz Kariuki</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</lastBuildDate><atom:link href="https://lizwkariuki58.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</lastBuildDate><atom:link href="https://lizkariuki.com/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Book Notes</title>
+    <link>https://lizkariuki.com/categories/book-notes/</link>
+    <pubDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</pubDate>
+    <author>upagge.en</author>
+    <guid>https://lizkariuki.com/categories/book-notes/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Web Development</title>
-    <link>https://lizwkariuki58.github.io/categories/web-development/</link>
+    <link>https://lizkariuki.com/categories/web-development/</link>
     <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
     <author>upagge.en</author>
-    <guid>https://lizwkariuki58.github.io/categories/web-development/</guid>
+    <guid>https://lizkariuki.com/categories/web-development/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Documentation</title>
-    <link>https://lizwkariuki58.github.io/categories/documentation/</link>
+    <link>https://lizkariuki.com/categories/documentation/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>upagge.en</author>
-    <guid>https://lizwkariuki58.github.io/categories/documentation/</guid>
+    <guid>https://lizkariuki.com/categories/documentation/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
