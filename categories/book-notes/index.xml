@@ -1,15 +1,25 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Book Notes - Category - Liz Kariuki</title>
-        <link>https://lizkariuki.com/categories/book-notes/</link>
-        <description>Book Notes - Category - Liz Kariuki</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</lastBuildDate><atom:link href="https://lizkariuki.com/categories/book-notes/" rel="self" type="application/rss+xml" /><item>
-    <title>You Need a Budget</title>
-    <link>https://lizkariuki.com/ynab/</link>
-    <pubDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/ynab/</guid>
-    <description><![CDATA[<hr>
-<p>My Book Notes for You Need a Budget by Jesse Mecham.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Notes on Liz Kariuki</title>
+    <link>https://lizkariuki.com/categories/book-notes/</link>
+    <description>Recent content in Book Notes on Liz Kariuki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Aug 2021 15:29:57 +0300</lastBuildDate>
+    
+	<atom:link href="https://lizkariuki.com/categories/book-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You Need a Budget</title>
+      <link>https://lizkariuki.com/ynab/</link>
+      <pubDate>Sat, 28 Aug 2021 15:29:57 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/ynab/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;My Book Notes for You Need a Budget by Jesse Mecham.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>

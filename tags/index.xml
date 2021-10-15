@@ -1,28 +1,42 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - Liz Kariuki</title>
-        <link>https://lizkariuki.com/tags/</link>
-        <description>Tags - Tag - Liz Kariuki</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</lastBuildDate><atom:link href="https://lizkariuki.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>ynab</title>
-    <link>https://lizkariuki.com/tags/ynab/</link>
-    <pubDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/tags/ynab/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>github-pages</title>
-    <link>https://lizkariuki.com/tags/github-pages/</link>
-    <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/tags/github-pages/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>hugo</title>
-    <link>https://lizkariuki.com/tags/hugo/</link>
-    <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/tags/hugo/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Liz Kariuki</title>
+    <link>https://lizkariuki.com/tags/</link>
+    <description>Recent content in Tags on Liz Kariuki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Aug 2021 15:29:57 +0300</lastBuildDate>
+    
+	<atom:link href="https://lizkariuki.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ynab</title>
+      <link>https://lizkariuki.com/tags/ynab/</link>
+      <pubDate>Sat, 28 Aug 2021 15:29:57 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/tags/ynab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github-pages</title>
+      <link>https://lizkariuki.com/tags/github-pages/</link>
+      <pubDate>Sat, 21 Aug 2021 11:33:21 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://lizkariuki.com/tags/hugo/</link>
+      <pubDate>Sat, 21 Aug 2021 11:33:21 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>

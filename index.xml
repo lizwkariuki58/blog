@@ -1,24 +1,53 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Liz Kariuki</title>
-        <link>https://lizkariuki.com/</link>
-        <description>Liz Kariuki Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 15:11:48 &#43;0300</lastBuildDate>
-            <atom:link href="https://lizkariuki.com/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>You Need a Budget</title>
-    <link>https://lizkariuki.com/ynab/</link>
-    <pubDate>Sat, 28 Aug 2021 15:29:57 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/ynab/</guid>
-    <description><![CDATA[<hr>
-<p>My Book Notes for You Need a Budget by Jesse Mecham.</p>]]></description>
-</item><item>
-    <title>How to Host a Hugo Site for Free on Github Pages</title>
-    <link>https://lizkariuki.com/hugo-github-pages/</link>
-    <pubDate>Sat, 21 Aug 2021 11:33:21 &#43;0300</pubDate>
-    <author>upagge.en</author>
-    <guid>https://lizkariuki.com/hugo-github-pages/</guid>
-    <description><![CDATA[<p>Find out how to create a Hugo site and host it on Github Pages for free.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liz Kariuki</title>
+    <link>https://lizkariuki.com/</link>
+    <description>Recent content on Liz Kariuki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Aug 2021 21:26:20 +0300</lastBuildDate>
+    
+	<atom:link href="https://lizkariuki.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculator</title>
+      <link>https://lizkariuki.com/projects/mmf-calculator/calculator/</link>
+      <pubDate>Sat, 04 Sep 2021 15:11:48 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/projects/mmf-calculator/calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You Need a Budget</title>
+      <link>https://lizkariuki.com/ynab/</link>
+      <pubDate>Sat, 28 Aug 2021 15:29:57 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/ynab/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;My Book Notes for You Need a Budget by Jesse Mecham.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Host a Hugo Site for Free on Github Pages</title>
+      <link>https://lizkariuki.com/hugo-github-pages/</link>
+      <pubDate>Sat, 21 Aug 2021 11:33:21 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/hugo-github-pages/</guid>
+      <description>&lt;p&gt;Find out how to create a Hugo site and host it on Github Pages for free.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://lizkariuki.com/about/</link>
+      <pubDate>Fri, 20 Aug 2021 21:26:20 +0300</pubDate>
+      
+      <guid>https://lizkariuki.com/about/</guid>
+      <description>Hello 👋🏿 , My name is Liz. Welcome to my tiny corner of the internet. This site hosts my ramblings and thoughts about various topics I am passionate about: tech, learning, productivity, finance and personal knowledge management among others. Thank you for reading!
+Contact me on Telegram or Email Me!</description>
+    </item>
+    
+  </channel>
 </rss>
