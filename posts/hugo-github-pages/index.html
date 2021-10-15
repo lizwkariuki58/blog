@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://lizkariuki.com/images/favicon.png" />
+<title>How to Host a Hugo Site for Free on Github Pages | Liz Kariuki</title>
+<meta name="title" content="How to Host a Hugo Site for Free on Github Pages" />
+<meta name="description" content="Find out how to create a Hugo site and host it on Github Pages for free." />
+<meta name="keywords" content="hugo,github-pages," />
+
+
+<meta property="og:title" content="How to Host a Hugo Site for Free on Github Pages" />
+<meta property="og:description" content="Find out how to create a Hugo site and host it on Github Pages for free." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lizkariuki.com/posts/hugo-github-pages/" />
+<meta property="og:image" content="https://lizkariuki.com/posts/hugo-github-pages/featured-image.jpg"/>
+<meta property="article:published_time" content="2021-08-21T11:33:21+03:00" />
+<meta property="article:modified_time" content="2021-08-21T11:33:21+03:00" /><meta property="og:site_name" content="Liz Kariuki" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lizkariuki.com/posts/hugo-github-pages/featured-image.jpg"/>
+<meta name="twitter:title" content="How to Host a Hugo Site for Free on Github Pages"/>
+<meta name="twitter:description" content="Find out how to create a Hugo site and host it on Github Pages for free."/>
+
+
+
+<meta itemprop="name" content="How to Host a Hugo Site for Free on Github Pages">
+<meta itemprop="description" content="Find out how to create a Hugo site and host it on Github Pages for free.">
+<meta itemprop="datePublished" content="2021-08-21T11:33:21&#43;03:00" />
+<meta itemprop="dateModified" content="2021-08-21T11:33:21&#43;03:00" />
+<meta itemprop="wordCount" content="846">
+<meta itemprop="image" content="https://lizkariuki.com/posts/hugo-github-pages/featured-image.jpg">
+
+
+
+<meta itemprop="keywords" content="hugo,github-pages," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #f8f8f2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Liz Kariuki</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/posts/">Posts</a>
+
+<a href="/projects/">Projects</a>
+
+
+</nav>
+</header>
+  <main>
+
+<content>
+  <p>Find out how to create a Hugo site and host it on Github Pages for free.</p>
+<h2 id="1-introduction">1 Introduction</h2>
+<p>So you want to create your first personal website? You have probably heard of Content Management Systems(CMSs) like Wordpress or Website Builders like Wix. But unless you are building a very complex website,you don&rsquo;t need the complications, risks and costs that come with the above options. CMSs create heavy websites that are slow, prone to security risks and costly to host. Static site generators overcome this problem by generating static html files which are light, secure fast and cheap(even free) to host.</p>
+<h2 id="2-why-use-hugo">2 Why use Hugo</h2>
+<p>There are lots of static generators you can use to generate your website. Examples include: <a href="https://gohugo.io/">Hugo</a>, <a href="">Gatsby</a>, <a href="">Jekyll</a>,<a href="">Next.js</a>,<a href="">Pelican</a> etc. I chose Hugo for the following reasons:</p>
+<ul>
+<li>It is well-documented with a large community of users and library of themes and templates.</li>
+<li>It is fully free and open source.</li>
+<li>Posts are written in Markdown which allows for powerful formatting and is transferrable.</li>
+<li>It has a very fast build time.</li>
+<li>It is SEO Friendly.</li>
+</ul>
+<h2 id="3-why-use-github-pages">3 Why Use Github Pages</h2>
+<p>Github pages is a hosting service offered by Github to let creators showcase their work for free. There are 2 types of Github pages websites: organizational pages and project pages. The default url is in the format username.github.io but you could also configure the site to show on your custom domain.</p>
+<p>There are two ways to get your site on Github pages. You could use Github to host only the static files required to build your site. These are typically found in the &lsquo;public&rsquo; folder in Hugo. This option gets the work done but the code used to generate the site itself is not tracked and stored via Git. The second option or what I call &lsquo;the right way&rsquo; lets you track the static pages, the hugo code and the theme in separate submodules. Let&rsquo;s get started.</p>
+<h2 id="4-set-up-hugo-site-and-push-to-github">4 Set Up Hugo Site and Push to Github</h2>
+<p>To build a site with Hugo, you must first install Hugo on your local machine. Check <a href="https://gohugo.io/getting-started/installing/">this</a> page on how to install hugo on your Operating System. Once Hugo is installed:</p>
+<ol>
+<li>Create a new site by running :</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site my_website
+cd my_website
+</code></pre></div><ol start="2">
+<li>Create a Github repository for the site and initiate it without a README file.</li>
+<li>In your website root directory, initialize git, add remote repository, add the files, commit the changes and push to origin.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git init
+git remote add origin *url*
+git add .
+git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
+git push -u origin master
+</code></pre></div><ol start="4">
+<li>Create a second repository on Github to host the public html files. If this is an &lsquo;organization&rsquo; site on Github, name the repository &lsquo;&lsquo;&lsquo;username.github.io&rsquo;''.</li>
+<li>At the project root folder add this repository as a submodule in a folder called public.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git submodule add -b master *repo url* public
+</code></pre></div><ol start="6">
+<li>Run the command <code>hugo</code> to build the site.</li>
+<li>In the public folder, add and commit the changes.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd public
+git add .
+git commit -m <span style="color:#e6db74">&#34;initial commit of public files&#34;</span>
+</code></pre></div><ol start="8">
+<li>Go back to the project root, add and commit all the changes and most important, push both repositories as shown below:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd ..
+git add .
+git commit -m <span style="color:#e6db74">&#34;Commit both repositories&#34;</span>
+git push -u origin master --recurse-submodules<span style="color:#f92672">=</span>on-demand
+</code></pre></div><ol start="9">
+<li>Go to the settings page on the public Githup repository, and turn on the site. Your site is now live but it does not have any content or a theme.</li>
+</ol>
+<h2 id="5-adding-a-theme-to-your-site">5 Adding a Theme to Your Site.</h2>
+<p>We shall be using a submodule to add a theme to your project for the following reasons:</p>
+<ul>
+<li>You shall be able to track changes you have made to the theme code separately.</li>
+<li>You can still easily update your theme with changes made by the theme&rsquo;s creator.</li>
+</ul>
+<p>To begin with you need to choose a theme. Hugo has a diverse selection of themes to fit your every need be it blogging, documentation, displaying a portfolio etc. You can use <a href="https://awesomeopensource.com/projects/hugo">this resource</a> to pick a theme. After choosing a theme fork its repository to your Github profile so that you can make any changes you need. To add the forked repository as a submodule to your project, go to the website root folder and run:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git submodule add *forked repo url* themes/theme-name
+</code></pre></div><h2 id="6-set-up-website">6 Set up Website</h2>
+<ol>
+<li>Edit the config.toml file to set up the theme and base url.</li>
+</ol>
+<pre><code>baseURL = 'https://username.github.io/'
+title = 'Site Title'
+theme = 'theme-name'
+</code></pre><ol start="2">
+<li>To create your first post, run the following command:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new first_post.md
+</code></pre></div><ol start="3">
+<li>Run the command &lsquo;hugo&rsquo; to build the site.</li>
+<li>Run the command &lsquo;hugo server&rsquo; to preview the site locally.</li>
+<li>Once you are satisfied by the site, add and commit the changes and push them to Github as follows.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd public
+git add .
+git commit -m <span style="color:#e6db74">&#34;Commit first post&#34;</span>
+cd ..
+git add .
+git commit -m <span style="color:#e6db74">&#34;Commit first post and theme&#34;</span>
+git push -u origin master --recurse-submodules<span style="color:#f92672">=</span>on-demand
+</code></pre></div><h2 id="7-conclusion">7 Conclusion</h2>
+<p>Congratulations on building your first Hugo site and hosting it on Github Pages! To help you along this journey, here are some additional resources:</p>
+<ul>
+<li><a href="https://gohugo.io/getting-started/">Getting Started with Hugo</a></li>
+<li><a href="https://docs.github.com/en/pages">Github Pages Documentation</a></li>
+</ul>
+</content>
+<p>
+  
+  <a href="https://lizkariuki.com/tags/github-pages/">#github-pages</a>
+  
+  <a href="https://lizkariuki.com/tags/hugo/">#hugo</a>
+  
+</p>
+
+  </main>
+  <footer>
+</footer>
+
+    
+</body>
+
+</html>

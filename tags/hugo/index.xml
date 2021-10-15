@@ -5,7 +5,7 @@
     <link>https://lizkariuki.com/tags/hugo/</link>
     <description>Recent content in hugo on Liz Kariuki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 21 Aug 2021 11:33:21 +0300</lastBuildDate>
     
 	<atom:link href="https://lizkariuki.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>How to Host a Hugo Site for Free on Github Pages</title>
-      <link>https://lizkariuki.com/hugo-github-pages/</link>
+      <link>https://lizkariuki.com/posts/hugo-github-pages/</link>
       <pubDate>Sat, 21 Aug 2021 11:33:21 +0300</pubDate>
       
-      <guid>https://lizkariuki.com/hugo-github-pages/</guid>
+      <guid>https://lizkariuki.com/posts/hugo-github-pages/</guid>
       <description>&lt;p&gt;Find out how to create a Hugo site and host it on Github Pages for free.&lt;/p&gt;</description>
     </item>
     

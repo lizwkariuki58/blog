@@ -5,7 +5,7 @@
     <link>https://lizkariuki.com/posts/</link>
     <description>Recent content in Posts on Liz Kariuki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 28 Aug 2021 15:29:57 +0300</lastBuildDate>
     
 	<atom:link href="https://lizkariuki.com/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,20 +13,20 @@
     
     <item>
       <title>You Need a Budget</title>
-      <link>https://lizkariuki.com/ynab/</link>
+      <link>https://lizkariuki.com/posts/ynab/</link>
       <pubDate>Sat, 28 Aug 2021 15:29:57 +0300</pubDate>
       
-      <guid>https://lizkariuki.com/ynab/</guid>
+      <guid>https://lizkariuki.com/posts/ynab/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;My Book Notes for You Need a Budget by Jesse Mecham.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>How to Host a Hugo Site for Free on Github Pages</title>
-      <link>https://lizkariuki.com/hugo-github-pages/</link>
+      <link>https://lizkariuki.com/posts/hugo-github-pages/</link>
       <pubDate>Sat, 21 Aug 2021 11:33:21 +0300</pubDate>
       
-      <guid>https://lizkariuki.com/hugo-github-pages/</guid>
+      <guid>https://lizkariuki.com/posts/hugo-github-pages/</guid>
       <description>&lt;p&gt;Find out how to create a Hugo site and host it on Github Pages for free.&lt;/p&gt;</description>
     </item>
     
